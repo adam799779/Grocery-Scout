@@ -1,0 +1,126 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #007bff; /* Blue background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Limit the width to avoid stretching */
+  padding: 3rem 2rem; /* Increase padding for more space */
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grocery-scout {
+  color: #000000; /* Black color for the "Grocery Scout 🛒" */
+  font-size: 2.5rem; /* Larger font size for first part */
+  font-weight: bold; /* Bold the text */
+}
+
+.subheading {
+  color: #000000; /* Black color for the subheading */
+  font-size: 1.2rem; /* Slightly smaller font size for second and third parts */
+  font-weight: bold; /* Bold the text */
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem; /* Added bottom margin to create space between heading and input fields */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #1a73e8; /* Focus border color */
+}
+
+button {
+  background-color: #1a73e8; /* Blue background for buttons */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1558b1; /* Darker blue on hover */
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+li:hover {
+  background-color: #e1e1e1;
+  transform: translateY(-3px);
+}
+
+li.active {
+  background-color: #cfe2f3; /* Light blue background for active items */
+}
+
+.clear-btn {
+  background-color: #e74c3c;
+}
+
+.clear-btn:hover {
+  background-color: #c0392b;
+}
+
+.price {
+  color: #28a745; /* Green color for price */
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.bg-yellow-200 {
+  background-color: #fff3cd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded-md {
+  border-radius: 8px;
+}
