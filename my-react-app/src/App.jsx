@@ -8,6 +8,11 @@ const GroceryScout = () => {
   const [loading, setLoading] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
 
+
+
+
+
+  
   const fetchData = async (query) => {
     setLoading(true);
     try {
